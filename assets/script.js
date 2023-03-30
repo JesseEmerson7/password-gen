@@ -36,7 +36,7 @@ console.log(length);
 
 if (length >= 8 && length <= 128){
   console.log('next option');
-} else { (window.alert('Must be 8-128 characters long.'));
+} else if(length < 8 || length > 128){ (window.alert('Must be 8-128 characters long.'));
   return;
 };
 
