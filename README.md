@@ -17,7 +17,7 @@ Open web page in any preferred browser and click on the "Generate Password" butt
 
 Acesss <a href="https://jesseemerson7.github.io/password-gen/">Live webpage.</a>
 
-<img src="./assets/images/03-javascript-homework-demo.png" alt="Password generator web page" title="Password-Gen website">
+<img src="/assets/images/03-javascript-homework-demo.png" alt="Password generator web page" title="Password-Gen website">
 
 ## Credits
 
