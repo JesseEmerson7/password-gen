@@ -55,7 +55,15 @@ console.log(specialSelect);
 
 if( (capitalSelect&&lowerSelect)&&(numberSelect&&specialSelect)){
 var randomAll = upperCase.concat(lowerCase,numbers,special);
-}else if ((capitalSelect)){}
+}else if ((capitalSelect&&lowerSelect)&&numberSelect){
+ randomAll = upperCase.concat(lowerCase,numbers);
+} else if (capitalSelect&&lowerSelect){
+  randomAll = upperCase.concat(lowerCase);
+} else if (capitalSelect=true){
+  randomAll = upperCase
+};
+
+
 
 
 
