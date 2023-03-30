@@ -52,22 +52,32 @@ console.log(numberSelect);
 
 let specialSelect = window.confirm('would you like special characters?');
 console.log(specialSelect);
+var randomAll= []
 
-if( (capitalSelect&&lowerSelect)&&(numberSelect&&specialSelect)){
-var randomAll = upperCase.concat(lowerCase,numbers,special);
-}else if ((capitalSelect&&lowerSelect)&&numberSelect){
- randomAll = upperCase.concat(lowerCase,numbers);
-} else if (capitalSelect&&lowerSelect){
-  randomAll = upperCase.concat(lowerCase);
-} else if (capitalSelect=true){
-  randomAll = upperCase
+if(capitalSelect){
+  randomAll =randomAll.concat(upperCase)
+};
+
+if(lowerSelect){
+  randomAll =randomAll.concat(lowerCase)
+};
+
+if (numberSelect){
+  randomAll = randomAll.concat(numbers)
+};
+
+if(specialSelect){
+  randomAll = randomAll.concat(special)
 };
 
 
-
+let newPass = randomAll.sort(())
+// var index = Math.floor(Math.random() * );
+//   var newPass = randomAll[index];
 
 
 
 console.log(randomAll);
+console.log(newPass);
   return "password return";
 };
